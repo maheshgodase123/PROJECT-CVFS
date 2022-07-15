@@ -6,18 +6,18 @@
 #include<io.h>
 
 
-#define MAXINODE 50     // this is max file count we can create(50 file fkt apan create kru shakto)
+#define MAXINODE 50     // max file count we can create
 
 #define READ 1      // permission on file to perform
 #define WRITE 2
 
 #define MAXFILESIZE 2048   
 
-#define REGULAR 1       // this are file types regular and special
+#define REGULAR 1       // this are file types regular and special(we supporting regular only)
 #define SPECIAL 2 
 
 #define START 0     // use for lseek function 
-#define CURRENT 1   // mnje kuthun start krnare apan file read karnyasathi
+#define CURRENT 1   
 #define END 2       
 
 
