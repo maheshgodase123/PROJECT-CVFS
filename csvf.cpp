@@ -576,7 +576,7 @@ int LseekFile(int fd, int size, int from)
         }
     }
 
-    else if(UFDTArr[fd].ptrfiletable->mode == WRITE || (UFDTArr[fd].ptrfiletable->mode == READ+WRITE))
+    else if(UFDTArr[fd].ptrfiletable->mode == WRITE)
     {
         if(from == CURRENT)
         {
