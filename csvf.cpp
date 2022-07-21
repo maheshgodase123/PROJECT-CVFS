@@ -107,7 +107,7 @@ void man(char *name)
     }
     else if(strcmp(name,"open") == 0)
     {
-        printf("Description : Used To Ope Existing File\n");
+        printf("Description : Used To Open Existing File\n");
         printf("Usage : open File_name mode\n");
     }
     else if(strcmp(name,"close") == 0)
