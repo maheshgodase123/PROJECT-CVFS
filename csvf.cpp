@@ -264,12 +264,12 @@ int CreateFile(char *name, int permission)
         return -2;
     }
  
-    (SUPERBLOCKobj.FreeInode)--;
-
     if(Get_Inode(name) != NULL)
     {
         return -3;
     }
+    
+    (SUPERBLOCKobj.FreeInode)--;
 
     while(temp != NULL)
     {
