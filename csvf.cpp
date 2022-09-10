@@ -52,7 +52,7 @@ typedef struct filetable
 
 typedef struct ufdt  // it is not ideal to create structure for only on datafield as structure is used to create group of heterogenious datatypes(but it is used bcoz os contains the ufdt struct in it for that implementation purpose we alse created ufdt stuct) feel yenyasathi
 {
-    PFILETABLE ptrfiletable;        // line(43(49))filetable la point krtoy(diagram madhe dilay book madhe)
+    PFILETABLE ptrfiletable;        // line(43(49))filetable la point krtoy
     // PFILETABLE *filetable;
 }UFDT;
 
